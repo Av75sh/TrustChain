@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  react-app:
+    image: av75sh/trust
+    ports:
+      - "5173:5173"
+    restart: unless-stopped
